@@ -1,10 +1,12 @@
 package interview;
 
-class Solution {
+public class Problem509 {
     public static void main(String[] args) {
-        System.out.println(fib(2)); // returns 1
-        System.out.println(fib(3)); // returns 2
-        System.out.println(fib(4)); // returns 3
+        Problem509 solution = new Problem509();
+
+        System.out.println(solution.fib(2)); // returns 1
+        System.out.println(solution.fib(3)); // returns 2
+        System.out.println(solution.fib(4)); // returns 3
     }
 
     public int fib(int n) {
